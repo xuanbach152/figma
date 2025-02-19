@@ -1,0 +1,10 @@
+.fa-house {
+  color: rgb(47, 93, 23);
+  width: 300px;
+  height: 300px;
+}
+.mes {
+  position: absolute;
+  left: 0;
+  right: 9px;
+}
