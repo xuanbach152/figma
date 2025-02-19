@@ -18,30 +18,29 @@ a {
   margin-right: auto;
   max-width: calc(100% - 48px);
 }
-.btn{
+.btn {
   display: inline-block;
   padding: 0 16px;
   line-height: 50px;
   min-width: 118px;
-font-weight: 600;
-font-size: 1.6rem;
-text-align: center;
-color: #fff;
-background: #171100;
-border-radius: 24.5px;
-
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+  background: #171100;
+  border-radius: 24.5px;
 }
 /* header */
-.header{
+.header {
   background: #cacdcc;
 }
-.header.fixed{
+.header.fixed {
   position: sticky;
   top: -28px;
 }
 .header .body {
   display: flex;
-  align-items: center; 
+  align-items: center;
   padding: 36px 0 8px;
 }
 .nav {
@@ -52,9 +51,10 @@ border-radius: 24.5px;
 }
 .nav a {
   position: relative;
-  color: rgba(245, 137, 4, 0.961);
+  color: rgba(182, 42, 7, 0.961);
   font-size: 1.6rem;
   padding: 8px 21px;
+  font-weight: 200;
 }
 .nav li.active a,
 .nav a:hover {
@@ -73,10 +73,13 @@ border-radius: 24.5px;
   border-radius: 1px;
   background: #050505;
 }
-.header .btn-sign-up{
+.header .btn-sign-up {
   min-width: 144px;
 }
-.header .action{
+.header .btn-sign-up:hover {
+  color: #171100;
+  background: #fff;
+}
+.header .action {
   margin-left: 49px;
 }
-
